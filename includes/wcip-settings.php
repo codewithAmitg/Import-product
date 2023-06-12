@@ -88,7 +88,7 @@ function wcip_render_plugin_settings_page() {
 			<?php
 				settings_fields( 'import_product_settings' ); // settings group name
 				do_settings_sections( 'import-product' ); // just a page slug
-				submit_button(); // "Save Changes" button
+				submit_button('Import Products'); // "Save Changes" button
 			?>
 		</form>
 	</div>
